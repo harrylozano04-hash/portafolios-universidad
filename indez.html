@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Este es un ejemplo de un diseño no responsivo | Responsive Web Design</title>
+        <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+
+<header>
+    <h1>Deque University</h1>
+    <nav id="nav">
+        <a href="#">Inicio</a>
+        <a href="#">Ejemplo</a>
+        <a href="#">Accesibilidad</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+</header>
+
+
+<main>
+    <section>
+        <h2>Este es un ejemplo de un diseño no responsivo</h2>
+        <p>
+        Este es el contenido de esta página. 
+        Esto es una gran cantidad de texto solo para llenar el espacio. 
+        Lo repetiré una y otra vez porque eso llenará el espacio con más palabras, que es lo que quiero hacer. 
+        Este es el contenido de esta página. Esto es una gran cantidad de texto solo para llenar el espacio. 
+        Lo repetiré una y otra vez porque eso llenará el espacio con más palabras, que es lo que quiero hacer. 
+        Este es el contenido de esta página. Esto es una gran cantidad de texto solo para llenar el espacio. 
+        Lo repetiré una y otra vez porque eso llenará el espacio con más palabras, que es lo que quiero hacer. 
+        Este es el contenido de esta página. Esto es una gran cantidad de texto solo para llenar el espacio. 
+        Lo repetiré una y otra vez porque eso llenará el espacio con más palabras, que es lo que quiero hacer. 
+        Este es el contenido de esta página. Esto es una gran cantidad de texto solo para llenar el espacio. 
+        Lo repetiré una y otra vez porque eso llenará el espacio con más palabras, que es lo que quiero hacer. 
+        Este es el contenido de esta página. Esto es una gran cantidad de texto solo para llenar el espacio.
+        </p>
+    </section>
+
+
+    <section>
+        <h2>Este es un subtítulo de nivel 2</h2>
+        <p>
+        Lo repetiré una y otra vez porque eso llenará el espacio con más palabras, que es lo que quiero hacer. 
+        Este es el contenido de esta página. Esto es una gran cantidad de texto solo para llenar el espacio. 
+        Lo repetiré una y otra vez porque eso llenará el espacio con más palabras, que es lo que quiero hacer. 
+        Este es el contenido de esta página. Esto es una gran cantidad de texto solo para llenar el espacio. 
+        Lo repetiré una y otra vez porque eso llenará el espacio con más palabras, que es lo que quiero hacer. 
+        Este es el contenido de esta página. Esto es una gran cantidad de texto solo para llenar el espacio. 
+        Lo repetiré una y otra vez porque eso llenará el espacio con más palabras, que es lo que quiero hacer. 
+        Este es el contenido de esta página. Esto es una gran cantidad de texto solo para llenar el espacio. 
+        Lo repetiré una y otra vez porque eso llenará el espacio con más palabras, que es lo que quiero hacer. 
+        Este es el contenido de esta página.
+        </p>
+    </section>
+
+
+    <section class="columns">
+        <article>
+        <h2>Este es un subtítulo de nivel 3</h2>
+        <p>
+            Esto es una gran cantidad de texto solo para llenar el espacio. 
+            Lo repetiré una y otra vez porque eso llenará el espacio con más palabras, que es lo que quiero hacer. 
+            Este es el contenido de esta página. Esto es una gran cantidad de texto solo para llenar el espacio. 
+            Lo repetiré una y otra vez porque eso llenará el espacio con más palabras, que es lo que quiero hacer. 
+            Este es el contenido de esta página. Esto es una gran cantidad de texto solo para llenar el espacio. 
+            Lo repetiré una y otra vez porque eso llenará el espacio con más palabras, que es lo que quiero hacer. 
+            Este es el contenido de esta página. Esto es una gran cantidad de texto solo para llenar el espacio. 
+            Lo repetiré una y otra vez porque eso llenará el espacio con más palabras, que es lo que quiero hacer.
+        </p>
+        </article>
+        <article>
+            <h2>Este es otro subtítulo de nivel 3</h2>
+            <p>
+                Este es el contenido de esta página. Esto es una gran cantidad de texto solo para llenar el espacio. 
+                Lo repetiré una y otra vez porque eso llenará el espacio con más palabras, que es lo que quiero hacer. 
+                Este es el contenido de esta página. Esto es una gran cantidad de texto solo para llenar el espacio. 
+                Lo repetiré una y otra vez porque eso llenará el espacio con más palabras, que es lo que quiero hacer. 
+                Este es el contenido de esta página. Esto es una gran cantidad de texto solo para llenar el espacio. 
+                Lo repetiré una y otra vez porque eso llenará el espacio con más palabras, que es lo que quiero hacer. 
+                Este es el contenido de esta página. Esto es una gran cantidad de texto solo para llenar el espacio. 
+                Lo repetiré una y otra vez porque eso llenará el espacio con más palabras, que es lo que quiero hacer. 
+                Este es el contenido de esta página.
+            </p>
+        </article>
+    </section>
+</main>
+
+
+<footer>
+    <p>Ejemplo académico basado en Deque University – Responsive Design</p>
+</footer>
+
+
+<script>
+    function toggleMenu() {
+        document.getElementById('nav').classList.toggle('active');
+}
+</script>
+
+
+</body>
+</html>
